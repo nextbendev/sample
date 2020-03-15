@@ -1,4 +1,4 @@
-import 'bootstrap/dist/js/bootstrap.bundle'
+
 import 'jquery/dist/jquery.slim'
 import 'popper.js/dist/esm/popper'
 
@@ -18,7 +18,7 @@ require("bootstrap/dist/js/bootstrap")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import '@bootstrap'
+
 // Script to open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
