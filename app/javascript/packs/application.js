@@ -1,8 +1,14 @@
+import 'bootstrap/dist/js/bootstrap.bundle'
+import 'jquery/dist/jquery.slim'
+import 'popper.js/dist/esm/popper'
 
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require("bootstrap/dist/js/bootstrap")
+
+
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference
@@ -12,7 +18,7 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-
+import '@bootstrap'
 // Script to open and close sidebar
 function w3_open() {
   document.getElementById("mySidebar").style.display = "block";
