@@ -1,5 +1,4 @@
 
-require ('bootstrapyarn add bootstrap jquery popper.js')
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
@@ -13,7 +12,6 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import 'bootstrap'
 
 // Script to open and close sidebar
 function w3_open() {
